@@ -6,3 +6,7 @@ C:\Users\trewor\source\repos\Tasks\WinFormApp\obj\Debug\WinFormApp.Properties.Re
 C:\Users\trewor\source\repos\Tasks\WinFormApp\obj\Debug\WinFormApp.csproj.GenerateResource.cache
 C:\Users\trewor\source\repos\Tasks\WinFormApp\obj\Debug\WinFormApp.exe
 C:\Users\trewor\source\repos\Tasks\WinFormApp\obj\Debug\WinFormApp.pdb
+C:\Users\trewor\source\repos\Tasks\WinFormApp\bin\Debug\HelloLibrary.dll
+C:\Users\trewor\source\repos\Tasks\WinFormApp\bin\Debug\HelloLibrary.pdb
+C:\Users\trewor\source\repos\Tasks\WinFormApp\obj\Debug\WinFormApp.csproj.CopyComplete
+C:\Users\trewor\source\repos\Tasks\WinFormApp\obj\Debug\WinFormApp.Form1.resources

@@ -47,6 +47,7 @@ public class MonoPackageManager_Resources {
 		"Xamarin.Forms.Platform.dll",
 		"Xamarin.Forms.Xaml.dll",
 		"XamarinFormApp.dll",
+		"HelloLibrary.dll",
 	};
 	public static String[] Dependencies = new String[]{
 	};

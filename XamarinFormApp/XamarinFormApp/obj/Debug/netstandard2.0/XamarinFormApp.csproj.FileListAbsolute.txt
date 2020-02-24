@@ -11,3 +11,6 @@ C:\Users\trewor\source\repos\Tasks\XamarinFormApp\XamarinFormApp\obj\Debug\netst
 C:\Users\trewor\source\repos\Tasks\XamarinFormApp\XamarinFormApp\obj\Debug\netstandard2.0\XamarinFormApp.dll
 C:\Users\trewor\source\repos\Tasks\XamarinFormApp\XamarinFormApp\obj\Debug\netstandard2.0\ref\XamarinFormApp.dll
 C:\Users\trewor\source\repos\Tasks\XamarinFormApp\XamarinFormApp\obj\Debug\netstandard2.0\XamarinFormApp.pdb
+C:\Users\trewor\source\repos\Tasks\XamarinFormApp\XamarinFormApp\bin\Debug\netstandard2.0\HelloLibrary.dll
+C:\Users\trewor\source\repos\Tasks\XamarinFormApp\XamarinFormApp\bin\Debug\netstandard2.0\HelloLibrary.pdb
+C:\Users\trewor\source\repos\Tasks\XamarinFormApp\XamarinFormApp\obj\Debug\netstandard2.0\XamarinFormApp.csproj.CopyComplete

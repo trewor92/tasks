@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{59350BF7-1915-47CA-A692-31F4433EB2CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{59350BF7-1915-47CA-A692-31F4433EB2CC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormApp", "WinFormApp\WinFormApp.csproj", "{57AB706E-5A01-47E7-9C49-AC8CD8C1991F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinFormApp.Android", "XamarinFormApp\XamarinFormApp.Android\XamarinFormApp.Android.csproj", "{24A3943A-06AB-468A-9BCF-3103A1004FB6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinFormApp", "XamarinFormApp\XamarinFormApp\XamarinFormApp.csproj", "{C350DC00-0B46-43B2-B41C-8D0EEECC774B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XamarinFormApp", "XamarinFormApp\XamarinFormApp\XamarinFormApp.csproj", "{C350DC00-0B46-43B2-B41C-8D0EEECC774B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{DAE85536-30EA-4EA1-8047-59C1C5E56E8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloLibrary", "HelloLibrary\HelloLibrary.csproj", "{C9C7E538-D56B-450E-8FB6-111435D41453}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,9 +39,16 @@ Global
 		{C350DC00-0B46-43B2-B41C-8D0EEECC774B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C350DC00-0B46-43B2-B41C-8D0EEECC774B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C350DC00-0B46-43B2-B41C-8D0EEECC774B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9C7E538-D56B-450E-8FB6-111435D41453}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9C7E538-D56B-450E-8FB6-111435D41453}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9C7E538-D56B-450E-8FB6-111435D41453}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9C7E538-D56B-450E-8FB6-111435D41453}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C9C7E538-D56B-450E-8FB6-111435D41453} = {DAE85536-30EA-4EA1-8047-59C1C5E56E8E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EA62D363-8879-440D-88D4-A16B2658A160}

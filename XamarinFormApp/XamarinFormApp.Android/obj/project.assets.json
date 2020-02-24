@@ -800,10 +800,21 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
+      "HelloLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/HelloLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HelloLibrary.dll": {}
+        }
+      },
       "XamarinFormApp/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "HelloLibrary": "1.0.0",
           "Xamarin.Essentials": "1.3.1",
           "Xamarin.Forms": "4.3.0.908675"
         },
@@ -1917,6 +1928,11 @@
         "xamarin.forms.4.3.0.908675.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
+    },
+    "HelloLibrary/1.0.0": {
+      "type": "project",
+      "path": "../../HelloLibrary/HelloLibrary.csproj",
+      "msbuildProject": "../../HelloLibrary/HelloLibrary.csproj"
     },
     "XamarinFormApp/1.0.0": {
       "type": "project",

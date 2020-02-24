@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "HelloLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/HelloLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HelloLibrary.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "HelloLibrary/1.0.0": {
+      "type": "project",
+      "path": "../HelloLibrary/HelloLibrary.csproj",
+      "msbuildProject": "../HelloLibrary/HelloLibrary.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "HelloLibrary >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\trewor\\.nuget\\packages\\": {},
@@ -39,7 +58,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\trewor\\source\\repos\\Tasks\\HelloLibrary\\HelloLibrary.csproj": {
+              "projectPath": "C:\\Users\\trewor\\source\\repos\\Tasks\\HelloLibrary\\HelloLibrary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

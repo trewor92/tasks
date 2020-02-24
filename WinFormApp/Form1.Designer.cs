@@ -47,16 +47,17 @@
             // 
             // welcomeLabel
             // 
-            this.welcomeLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.welcomeLabel.AutoSize = true;
             this.welcomeLabel.Font = new System.Drawing.Font("Verdana", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.welcomeLabel.Location = new System.Drawing.Point(12, 18);
             this.welcomeLabel.Name = "welcomeLabel";
-            this.welcomeLabel.Size = new System.Drawing.Size(420, 32);
+            this.welcomeLabel.Size = new System.Drawing.Size(0, 29);
             this.welcomeLabel.TabIndex = 1;
             this.welcomeLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // nameTextBox
             // 
+            this.nameTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.nameTextBox.Font = new System.Drawing.Font("Verdana", 13.8F);
             this.nameTextBox.Location = new System.Drawing.Point(12, 65);
             this.nameTextBox.MaxLength = 15;
@@ -65,21 +66,23 @@
             this.nameTextBox.TabIndex = 2;
             this.nameTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // task1_2AppForm
+            // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(445, 170);
             this.Controls.Add(this.nameTextBox);
             this.Controls.Add(this.welcomeLabel);
             this.Controls.Add(this.goButton);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
-            this.Name = "winFormAppForm";
+            this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "WinFormApp";
             this.ResumeLayout(false);
             this.PerformLayout();
+
         }
 
         #endregion

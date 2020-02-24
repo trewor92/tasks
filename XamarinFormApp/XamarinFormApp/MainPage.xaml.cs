@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using HelloLibrary;
 
 namespace XamarinFormApp
 {
@@ -19,7 +20,18 @@ namespace XamarinFormApp
         }
         private void goButton_Clicked(object sender, EventArgs e)
         {
-            welcomeLabel.Text = "Hello, " + (String.IsNullOrEmpty(nameEntry.Text) ? "not authorized user" : nameEntry.Text) + "!";
+            WriteHello(nameEntry.Text);
+            CleanNameEntry();
+        }
+
+        private void WriteHello(string name)
+        {
+            //welcomeLabel.Text = "Hello, " + (String.IsNullOrEmpty(nameEntry.Text) ? "not authorized user" : nameEntry.Text) + "!";
+            welcomeLabel.Text = Hello.TimeHello(name);
+        }
+
+        private void CleanNameEntry()
+        {
             nameEntry.Text = String.Empty;
         }
     }

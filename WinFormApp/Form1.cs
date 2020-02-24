@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using HelloLibrary;
 
 namespace WinFormApp
 {
@@ -19,7 +20,18 @@ namespace WinFormApp
 
         private void GoButton_Click(object sender, EventArgs e)
         {
-            welcomeLabel.Text = "Hello, " + (String.IsNullOrEmpty(nameTextBox.Text) ? "not authorized user" : nameTextBox.Text) + "!";
+            WriteHello(nameTextBox.Text);
+            CleanNameTextBox();
+        }
+
+        private void WriteHello(string name)
+        {
+            //welcomeLabel.Text = "Hello, " + (String.IsNullOrEmpty(name) ? "not authorized user" : nameTextBox.Text) + "!";
+            welcomeLabel.Text = Hello.TimeHello(name);
+        }
+
+        private void CleanNameTextBox()
+        { 
             nameTextBox.Text = String.Empty;
         }
     }
