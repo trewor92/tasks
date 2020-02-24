@@ -1,0 +1,2 @@
+C:\Users\trewor\source\repos\Tasks\Console\obj\Debug\netcoreapp3.1\Console.AssemblyInfoInputs.cache
+C:\Users\trewor\source\repos\Tasks\Console\obj\Debug\netcoreapp3.1\Console.AssemblyInfo.cs

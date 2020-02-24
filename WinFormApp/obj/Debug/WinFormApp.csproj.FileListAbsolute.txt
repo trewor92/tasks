@@ -1,0 +1,8 @@
+C:\Users\trewor\source\repos\Tasks\WinFormApp\bin\Debug\WinFormApp.exe.config
+C:\Users\trewor\source\repos\Tasks\WinFormApp\bin\Debug\WinFormApp.exe
+C:\Users\trewor\source\repos\Tasks\WinFormApp\bin\Debug\WinFormApp.pdb
+C:\Users\trewor\source\repos\Tasks\WinFormApp\obj\Debug\WinFormApp.csprojAssemblyReference.cache
+C:\Users\trewor\source\repos\Tasks\WinFormApp\obj\Debug\WinFormApp.Properties.Resources.resources
+C:\Users\trewor\source\repos\Tasks\WinFormApp\obj\Debug\WinFormApp.csproj.GenerateResource.cache
+C:\Users\trewor\source\repos\Tasks\WinFormApp\obj\Debug\WinFormApp.exe
+C:\Users\trewor\source\repos\Tasks\WinFormApp\obj\Debug\WinFormApp.pdb

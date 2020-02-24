@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="XamarinFormApp.MainPage">
+
+    <StackLayout x:Name="stackLayout"  
+                 HorizontalOptions="Center" 
+                 VerticalOptions="Center">
+
+        <StackLayout.Children>
+            <Label x:Name="welcomeLabel"  
+                   Text=""
+                   HorizontalTextAlignment="Center"
+                   FontSize="14" 
+                   FontAttributes="Bold" 
+                   FontFamily="Verdana"/>
+
+            <Entry x:Name="nameEntry"
+                   WidthRequest="150"
+                   MaxLength="15"
+                   Placeholder="Enter your name"
+                   HorizontalTextAlignment="Center"
+                   FontSize="14" 
+                   FontAttributes="Bold" 
+                   FontFamily="Verdana" />
+
+
+            <Button x:Name="goButton" 
+                    Text = "Go" 
+                    FontSize="14"
+                    FontAttributes="Bold"
+                    FontFamily="Verdana"
+                    Clicked="goButton_Clicked" />
+        </StackLayout.Children>
+    </StackLayout>
+
+</ContentPage>
